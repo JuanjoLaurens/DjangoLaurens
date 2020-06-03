@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+
+    {% load static %}
+
+    <title>{% block titulo %} {% endblock %} </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
+    
+    <link rel="stylesheet" href="{% static 'assets/fonts/icomoon/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/jquery-ui.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+
+
+    <link rel="stylesheet" href="{% static 'assets/css/jquery.fancybox.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap-datepicker.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/fonts/flaticon/font/flaticon.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/aos.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/estilo.css' %}">
+
+  </head>
+  
+  <body>
+  {% block contenido %} {% endblock %}
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-md-5">
+              <h2 class="footer-heading mb-4">Nosotros</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+            </div>
+            <div class="col-md-3 ml-auto">
+              <h2 class="footer-heading mb-4">Caracteristicas</h2>
+              <ul class="list-unstyled">
+                <li><a href="#about-section">Sobre nosotros</a></li>
+                <li><a href="#services-section">Servicios</a></li>
+                <li><a href="#contact-section">Contactanos</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h2 class="footer-heading mb-4">Siguenos</h2>
+              <a href="" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+              <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div class="row pt-5 mt-5 text-center">
+        <div class="col-md-12">
+          <div class="border-top pt-5">
+          <p>
+
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Juan José Laurens Gómez
+
+          </p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </footer>
+  
+  <script src="{% static 'assets/js5/jquery-3.3.1.min.js' %}"></script>'
+  <script src="{% static 'assets/js/jquery-migrate-3.0.1.min.js' %}"></script>
+  <script src="{% static 'assets/js/jquery-ui.js' %}"></script>
+  <script src="{% static 'assets/js/popper.min.js' %}"></script>
+  <script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+  <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+  <script src="{% static 'assets/js/jquery.stellar.min.js' %}"></script>
+  <script src="{% static 'assets/js/jquery.countdown.min.js' %}"></script>
+  <script src="{% static 'assets/js/bootstrap-datepicker.min.js' %}"></script>
+  <script src="{% static 'assets/js/jquery.easing.1.3.js' %}"></script>
+  <script src="{% static 'assets/js/aos.js' %}"></script>
+  <script src="{% static 'assets/js/jquery.fancybox.min.js' %}"></script>
+  <script src="{% static 'assets/js/jquery.sticky.js' %}"></script>
+
+
+  <script src="{% static 'assets/js/typed.js' %}"></script>
+            
+
+  <script src="{% static 'assets/js/main.js' %}"></script>
+</body>
+</html>
