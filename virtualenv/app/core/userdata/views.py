@@ -2,7 +2,7 @@ from django.views.generic.base import TemplateView
 from django.shortcuts import render, HttpResponse, redirect
 from django.urls import reverse
 
-class HomePageView(TemplateView):
+class NosotrosPageView(TemplateView):
     template_name ="nosotros.html"
 
 
